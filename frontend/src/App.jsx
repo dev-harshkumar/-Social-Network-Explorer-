@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_BASE = "http://localhost:3001";
+const API_BASE = "https://social-network-explorer-backend.onrender.com";
 
 // Animation components
 const AnimatedStep = ({ children, delay = 0 }) => (
